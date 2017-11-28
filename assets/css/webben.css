@@ -6,6 +6,7 @@ body {
 
 header {
     width: 100%;
+    
     display: grid;
     grid-template-columns:  0.75fr 1fr 1fr 1fr 0.1fr;
     grid-template-rows: auto;
@@ -28,35 +29,48 @@ header {
     transform: all;
     transition-duration: .3s;
     border: 3px solid black;
-    
 }
 
 .samma:hover {
     border-radius: 20px;
 }
-
-.heroimage {
-    background-image: url(/assets/images/heroimage5.jpg);
-    background-size: cover;
-    max-width: 100%;
-    margin-top: 10px;
-    width: 100%;
-    min-height:600px;
+.textett {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    margin-top: 40px;
 }
 
-.mitten {
-    color: white;
-    font-size: 70px;
-    text-shadow: 3px 3px 3px black;
+.text {
+    margin-left: 20px;
+}
+
+.texttwo {
+    display: flex;
+    
+}
+
+.text2 {
+    margin-left: 20px;
+}
+
+.imageone {
+    background-image: url(/assets/images/webbenbilder/webben.jpg);
+    min-height: 200px;
+    min-width: 200px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.imagetwo {
+    background-image: url(/assets/images/webbenbilder/webben2.jpg);
+    max-height: 181px;
+    min-width: 200px;
+    margin-top: 50px;
+    margin-left: 20px;
 }
 
 footer {
     display: flex;
     justify-content: space-between;
-    margin-top: 10px;
 }
 
 .FB {
@@ -89,7 +103,6 @@ footer {
     margin-right: 30px;
     border: 2px solid black;
 }
-
 a {
     text-decoration: none;
     color: black;
