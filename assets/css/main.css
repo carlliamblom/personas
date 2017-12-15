@@ -1,7 +1,8 @@
 @charset 'utf-8';
 
 body {
-    background-color: #ddd;
+    background-color: ghostwhite;
+    background: linear-gradient(white, #d3d3d3);
 }
 
 header {
@@ -65,6 +66,7 @@ footer {
     width: 60px;
     margin-left: 30px;
     border: 2px solid black;
+    border-radius: 20px;
 }
 
 .insta {
@@ -80,6 +82,7 @@ footer {
     height: 60px;
     width: 60px;
     border: 2px solid black;
+    border-radius: 20px;
 }
 
 .email {
@@ -88,6 +91,12 @@ footer {
     width: 60px;
     margin-right: 30px;
     border: 2px solid black;
+    border-radius: 20px;
+}
+
+.fixa {
+    margin-bottom: 5px;
+    margin-top: 0px;
 }
 
 a {
