@@ -43,9 +43,8 @@ header {
 .bild {
     background-image: url(/assets/images/internetbilder/kanske%20bra.jpg);
     min-width: 20%;
-    max-height: 10%;
     margin-top: 10px;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
 }
 
 .text {

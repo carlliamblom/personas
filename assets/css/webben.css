@@ -73,10 +73,10 @@ h3 {
 
 .imagetwo {
     background-image: url(/assets/images/webbenbilder/webben2.jpg);
-    max-height: 33%;
     min-width: 22.5%;
     margin-left: 20px;
-    background-repeat: no-repeat;
+    margin-bottom: 0px;
+    background-repeat: repeat;
 }
 
 footer {
